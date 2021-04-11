@@ -1,0 +1,90 @@
+.hero .item {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	font-size: 10px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.hero .item .title-small {
+	font-size: 7px;
+	font-weight: normal;
+}
+
+.hero .item .main-button {
+	margin: auto;
+	background-color: white;
+	font-family: sans-serif;
+	padding: 2% 8%;
+	font-size: x-small;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	color: black;
+	border-radius: 5px;
+}
+
+
+.map_work img {
+	width: 100%;
+}
+
+.card-me {
+	border: none;
+	box-shadow: 8px 20px 18px -11px rgba(0,0,0,0.18);
+	width: 100%;
+	position: relative;
+	top: -30px;
+}
+
+.feature div {
+	height: 20px;
+	border-radius: 5px;
+}
+
+.feature div p {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+	font-weight: bold;
+	opacity: 60%;
+	font-size: 9px;
+}
+
+.contact-box {
+	box-shadow: 8px 20px 28px -11px rgba(0,0,0,0.18);
+	width: 80%;
+	margin: auto;
+	border-radius: 20px;
+}
+
+.shadow-top {
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+	
+	.hero .item {
+		font-size: 180%;
+	}
+
+	.hero .item .title-small {
+		font-size: 14px;
+	}
+
+	.feature div {
+		height: 50px;
+	}
+
+	.feature div p {
+	font-size: 15px;
+}
+
+}
